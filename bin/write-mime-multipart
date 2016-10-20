@@ -7,4 +7,4 @@ hash docker > /dev/null 2>&1 || {
   exit 1
 }
 
-docker run -it --rm -v $PWD:$PWD -w $PWD write-mime-multipart $@
+docker run -it --rm -v $PWD:$PWD -w $PWD tsub/write-mime-multipart $@
