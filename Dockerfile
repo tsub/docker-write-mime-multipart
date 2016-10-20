@@ -7,3 +7,4 @@ RUN apt-get update && \
     apt-get clean
 
 ENTRYPOINT ["write-mime-multipart"]
+CMD ["--help"]
