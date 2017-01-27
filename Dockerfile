@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER tsub <tsubasatakayama511@gmail.com>
+LABEL maintainer "tsubasatakayama511@gmail.com"
 
 RUN apt-get update && \
     apt-get install -y \
